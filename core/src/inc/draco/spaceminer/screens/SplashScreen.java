@@ -21,7 +21,7 @@ public class SplashScreen extends StandardScreen {
 
     float loadingX = 0;
 
-    float timeOut = 3000;
+    float timeOut = 0;
     long startTime;
 
     public SplashScreen(SpaceMiner spaceMiner) {
@@ -60,7 +60,7 @@ public class SplashScreen extends StandardScreen {
 
         if (spaceMiner.manager.update() && TimeUtils.timeSinceMillis(startTime) > timeOut) {
             spaceMiner.init();
-            spaceMiner.changeScreen("welcome");
+            spaceMiner.changeScreen("game");
         }
     }
 

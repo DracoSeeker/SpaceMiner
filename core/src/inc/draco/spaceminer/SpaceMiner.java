@@ -30,6 +30,8 @@ public class SpaceMiner extends Game {
 	@Override
 	public void create() {
 
+
+
 		batch = new SpriteBatch();
 
 		manager = new AssetManager();
