@@ -5,6 +5,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.assets.loaders.SkinLoader;
+import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Pixmap;
+import com.badlogic.gdx.graphics.PixmapIO;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -46,6 +50,12 @@ public class SpaceMiner extends Game {
 		manager.load("Ships/SmallShip.png", Texture.class);
 		manager.load("Atlas/SpaceMiner.atlas", TextureAtlas.class);
 		manager.load("Env/starsGameTile.png", Texture.class);
+		manager.load("StatsBKGD.png", Texture.class);
+
+//		Pixmap pix = new Pixmap(30, 30, Pixmap.Format.RGB888);
+//		pix.setColor(Color.GRAY);
+//		pix.fill();
+//		PixmapIO.writePNG(new FileHandle("StatsBKGD"), pix);
 
 
 

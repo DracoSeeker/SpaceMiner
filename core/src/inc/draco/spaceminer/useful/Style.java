@@ -20,6 +20,7 @@ public final class Style {
         defaultSkin = new Skin();
         defaultSkin.add("title", createLabelSkin(128, "Fonts/menzanine/Menzanine.ttf"));
         defaultSkin.add("paragraph", createLabelSkin(32, "Fonts/menzanine/Menzanine.ttf"));
+        defaultSkin.add("stat", createLabelSkin(20, "Fonts/breathe_fire/Breathe Fire.otf"));
         pix.dispose();
     }
 
