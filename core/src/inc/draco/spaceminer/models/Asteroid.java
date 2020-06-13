@@ -36,7 +36,7 @@ public class Asteroid extends Sprite {
 
         size = MathUtils.random(1f, 2f);
         turn = MathUtils.random(-1f, 1f);
-        density = MathUtils.random(80f, 100f);
+        density = MathUtils.random(50f, 80f);
         speed = MathUtils.random(.1f,.25f);
         ang = MathUtils.random(0f,360f);
 

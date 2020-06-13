@@ -2,7 +2,7 @@ package inc.draco.spaceminer.info;
 
 public class Info {
 
-    public static final float WORLD_WIDTH = 1000;
+    public static final float WORLD_WIDTH = 700;
     public static final float WORLD_HEIGHT = WORLD_WIDTH;
 
     public static final float BKGD_WIDTH = 20;

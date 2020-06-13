@@ -26,9 +26,9 @@ public class Ship extends Sprite {
     private Vector2 pointer;
     private Vector3 pos;
 
-    public float speed = .7f; //Speed in as percentage of max
-    public float turn = .8f; //Turning rate as proportion of max
-    public float boost = .8f; //Speed as percentage of max
+    public float speed = .8f; //Speed in as percentage of max
+    public float turn = .9f; //Turning rate as proportion of max
+    public float boost = 1f; //Speed as percentage of max
 
     public Ship(SpaceMiner spaceMiner, Viewport view, World world) {
         super(spaceMiner.manager.get("Ships/SmallShip.png", Texture.class));

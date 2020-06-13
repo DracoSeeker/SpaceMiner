@@ -86,7 +86,7 @@ public class GameScreen extends StandardScreen implements InputProcessor {
                 statsTable.setHeight(200);
                 GUITable.add(statsTable);
 
-                    healthLb = new Label("Health", Style.defaultSkin, "stat");
+                    healthLb = new Label("FPS ", Style.defaultSkin, "stat");
                     healthAmt = new Label("10", Style.defaultSkin,"stat");
 
 
